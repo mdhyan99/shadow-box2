@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#shadow {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10vw;
+}
+#shadow >div{
+aspect-ratio: 1;
+margin: 20px;
+}
+.elevation-1 {
+    border: 1px solid rgba(17, 15, 15, 0.673);
+box-shadow: 5px 5px 5px rgba(9, 9, 9, 0.113);
+box-shadow: 5px 5px 5px rgba(9, 9, 9, 0.113);
+border-radius: 10px;
+}
+.elevation-2 {
+    border: 1px solid rgba(143, 126, 126, 0.725);
+box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.124);
+border-radius: 10px;
+}
+.elevation-3 {
+    border: 1px solid rgb(7, 7, 7);
+box-shadow: 10px 10px 10px rgba(43, 35, 35, 0.301);
+border-radius: 10px;
+}
+.elevation-4 {
+    border: 1px solid rgb(7, 7, 7);
+box-shadow: 12px 12px 12px rgba(35, 31, 31, 0.286);
+border-radius: 10px;
+}
+.elevation-5 {
+    border: 1px solid rgb(7, 7, 7);
+box-shadow: 15px 15px 15px rgba(44, 33, 33, 0.298);
+border-radius: 10px;
+}
+.elevation-6 {
+    border: 1px solid rgba(7, 7, 7, 0.129);
+box-shadow: inset 8px 8 px 8px rgba(44, 33, 33, 0.298);
+background-color: rgba(105, 194, 214, 0.412);
+border-radius: 10px;
+}.elevation-7 {
+    border: 1px solid rgb(7, 7, 7);
+box-shadow: inset 10px 10px 10px rgba(74, 44, 44, 0.298);
+background-color: rgba(43, 226, 208, 0.47);
+border-radius: 10px;
+}.elevation-8 {
+    border: 1px solid rgb(7, 7, 7);
+box-shadow: inset 10px 10px 10px 10px rgba(56, 90, 77, 0.523);
+background-color: red;
+border-radius: 10px;
+}
+.elevation-9 {
+    border: 1px solid rgb(7, 7, 7);
+box-shadow: inset 15px 15px 15px rgba(44, 33, 33, 0.298);
+background-color: rgba(181, 113, 181, 0.585);
+border-radius: 10px;
+}
