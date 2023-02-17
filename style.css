@@ -3,6 +3,11 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+h1 {
+
+    text-align: center;
+    color: red;
+}
 #shadow {
     display: grid;
     grid-template-columns: repeat(3,1fr);
